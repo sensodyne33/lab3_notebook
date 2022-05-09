@@ -1,0 +1,15 @@
+localStorage allows JS sites and apps to save key-value pairs in web browser with no expiration date.
+Window.localStorage is partt of the Window interface in JS which represents a window containing a DOM doc
+window interface has range of functions including constructors, objects, and namespaces
+Window.localStorage is a read-only property that returns a reference to the local localStorage
+How localStorage work?
+    setItem(): add key and value to localStorage
+        window.localStorage.setItem('name', Potato)
+    getItem(): get items from localStorage
+        window.localStorage.getItem('user)
+    removeItem(): remove an item by key from localStorage
+        window.localStorage.removeItem('name')
+    clear(): clear all localStorage
+        window.localStorage.clear()
+    key(): passed a number to retrieve the key of a local storage
+        var keyName = window.localStorage.key(index)
